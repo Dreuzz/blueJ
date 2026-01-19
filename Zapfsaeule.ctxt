@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Zapfsaeule
+comment0.text=\n\ Write\ a\ description\ of\ class\ Zapfsaeule\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=pPB\ pPD
+comment1.target=Zapfsaeule(double,\ double)
+comment2.params=
+comment2.target=double\ getPB()
+comment3.params=
+comment3.target=double\ getPD()
+comment4.params=
+comment4.target=double\ getAL()
+comment5.params=
+comment5.target=java.lang.String\ getGK()
+comment6.params=pPreis
+comment6.target=void\ setPB(double)
+comment7.params=pPreis
+comment7.target=void\ setPD(double)
+comment8.params=
+comment8.target=void\ gibKraftstoffAb()
+numComments=9
