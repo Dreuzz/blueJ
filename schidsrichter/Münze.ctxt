@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=M\u00FCnze
+comment0.text=\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=M\u00FCnze()
+comment2.params=
+comment2.target=void\ werfen()
+comment3.params=
+comment3.target=boolean\ getKopf()
+numComments=4
