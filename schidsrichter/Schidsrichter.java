@@ -1,58 +1,42 @@
 public class Schidsrichter
 {
-    private String muenze;
-    private boolean gelbeKarte;
-    private boolean roteKarte;
-    private boolean pfeife;
+    private Münze münze;
+    private Karte gelbeKarte;
+    private Karte roteKarte;
+    private Pfeife pfeife;
+    private String name;
 
-    public Schidsrichter() {
-        roteKarte = false;
-        gelbeKarte = false;
-        pfeife = false;
-        muenze = "null";
+    public Schidsrichter(String pName, Münze pMünze, Karte pGelbeKarte, Karte pRoteKarte, Pfeife pPfeife) {
+        roteKarte = pRoteKarte;
+        gelbeKarte = pGelbeKarte;
+        pfeife = pPfeife;
+        münze = pMünze;
+        this.münze = münze;
     }
 
-    public boolean getPfeife() {
-        return pfeife;        
-    }
-
-    public boolean getGelbeKarte() {
-        return gelbeKarte;    
-    }
-
-    public boolean getRoteKarte() {
-        return roteKarte;    
-    }
-
-    public String getMuenze() {
-        return muenze;
+    public String getName() {
+        return name;
     }
 
     public void pfeifen() {
         System.out.println("PFEIFEN!");
-        pfeife = true;
     }
 
-    public void setGelbeKarte() {
-        gelbeKarte = true;
-    }
-
-    public void setRoteKarte() {
-        roteKarte = true;
-    }
-
-    public void muenzeEntscheidung(){
-        if (Math.random() < 0.5) {
-            muenze = "Kopf";    
+    public void zeigeKarte(String pSpieler, String pKarte) {
+        if (pKarte == "gelb") {
+            System.out.println("Gelbe Karte an" + pSpieler);
         }
-        else {
-            muenze = "Zahl";
+
+        if (pKarte == "rot") {
+            System.out.println("Rote Karte an" + pSpieler);
         }
-        System.out.println(muenze);
+        
+        else{
+            System.out.println("Ungültige Karte");
+        }
     }
 
-    public void test() {
-        double test = Math.random();
-        System.out.println(test);
+    public String wirfMünze() {
+        return münze.wirfMünze();
     }
 }

@@ -20,6 +20,6 @@ public class Pfeife
     }
     
     public void pfeifen() {
-        System.out.println("PFFF");
+        System.out.println("PFEIFEN");
     }
 }

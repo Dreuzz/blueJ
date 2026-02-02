@@ -12,7 +12,7 @@ public class Karte
     }
     
     public void zeigen() {
-        System.out.println()
+        System.out.println(farbe + "e Karte wird gezeigt");
     }
     
     public String getFarbe() {
