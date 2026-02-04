@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Spieler
+comment0.text=\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=pName\ pNummer\ pAnzGelb\ pImSpiel
+comment1.target=Spieler(java.lang.String,\ int,\ int,\ boolean)
+numComments=2
