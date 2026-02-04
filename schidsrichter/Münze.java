@@ -6,22 +6,18 @@
 public class Münze
 {
     private boolean kopf;
-    private int a;
 
     public Münze() {
-        
     }
     
-    public String wirfMünze(){
+    public void wirfMünze(){
         if (Math.random() < 0.5) {
             kopf = true;
-            a = a + 1;
-            return "Kopf " + a;    
+            System.out.println("Kopf");    
         }
         else {
             kopf = false;
-            a = a + 1;
-            return "Zahl " + a;
+            System.out.println("Zahl");
         }
         
     }

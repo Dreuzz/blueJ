@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Karte
-comment0.text=\n\ @author\ \n\ @version\ \n
+comment0.text=\r\n\ @author\ \r\n\ @version\ \r\n
 comment1.params=pFarbe
 comment1.target=Karte(java.lang.String)
 comment2.params=

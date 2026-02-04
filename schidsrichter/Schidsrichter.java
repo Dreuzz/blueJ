@@ -10,6 +10,7 @@ public class Schidsrichter
         roteKarte = pRoteKarte;
         gelbeKarte = pGelbeKarte;
         pfeife = pPfeife;
+        this.pfeife = pfeife;
         münze = pMünze;
         this.münze = münze;
     }
@@ -17,9 +18,23 @@ public class Schidsrichter
     public String getName() {
         return name;
     }
+    
+    public int getLautstärke() {
+        return pfeife.getLautstärke();
+    }
 
-    public void pfeifen() {
-        System.out.println("PFEIFEN!");
+    public void pfeifen(int pLautstärke) {
+        pfeife.setLautstärke(pLautstärke);
+        
+        if (pLautstärke <= 50) {
+            System.out.println("pfeifen!");
+        }
+        else if (pLautstärke > 50) {
+            System.out.println("PFEIFEN!");           
+        }
+        else if (pLautstärke == 0) {
+            System.out.println("SHHHH!");           
+        }
     }
 
     public void zeigeKarte(String pSpieler, String pKarte) {
@@ -36,7 +51,7 @@ public class Schidsrichter
         }
     }
 
-    public String wirfMünze() {
-        return münze.wirfMünze();
+    public void wirfMünze() {
+        münze.wirfMünze();
     }
 }

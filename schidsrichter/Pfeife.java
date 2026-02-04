@@ -11,7 +11,7 @@ public class Pfeife
         lautstärke = pLautstärke;
     }
 
-    private int getLautstärke() {
+    public int getLautstärke() {
         return lautstärke;    
     }
     
