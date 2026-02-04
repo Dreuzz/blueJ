@@ -10,9 +10,7 @@ public class Schidsrichter
         roteKarte = pRoteKarte;
         gelbeKarte = pGelbeKarte;
         pfeife = pPfeife;
-        this.pfeife = pfeife;
         münze = pMünze;
-        this.münze = münze;
     }
 
     public String getName() {
@@ -37,7 +35,7 @@ public class Schidsrichter
         }
     }
 
-    public void zeigeKarte(String pSpieler, String pKarte) {
+    public void zeigeKarte(int pSpieler, String pKarte) {
         if (pKarte == "gelb") {
             System.out.println("Gelbe Karte an" + pSpieler);
         }
