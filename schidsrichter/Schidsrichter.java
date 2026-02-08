@@ -5,6 +5,7 @@ public class Schidsrichter
     private Karte roteKarte;
     private Pfeife pfeife;
     private String name;
+    private Spieler spieler;
 
     public Schidsrichter(String pName, Münze pMünze, Karte pGelbeKarte, Karte pRoteKarte, Pfeife pPfeife) {
         roteKarte = pRoteKarte;
@@ -35,13 +36,13 @@ public class Schidsrichter
         }
     }
 
-    public void zeigeKarte(int pSpieler, String pKarte) {
+    public void zeigeKarte(Spieler pSpieler, String pKarte) {
         if (pKarte == "gelb") {
-            System.out.println("Gelbe Karte an" + pSpieler);
+            System.out.println("Gelbe Karte an " + pSpieler.getName());
         }
 
-        if (pKarte == "rot") {
-            System.out.println("Rote Karte an" + pSpieler);
+        else if (pKarte == "rot") {
+            System.out.println("Rote Karte an " + pSpieler.getName());
         }
         
         else{

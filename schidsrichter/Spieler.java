@@ -14,8 +14,36 @@ public class Spieler
     {
         name = pName;
         nummer = pNummer;
+        anzGelb = pAnzGelb;
+        imSpiel = pImSpiel;
     }
 
-    // Dienste
-
+    public String getName() {
+        return name;
+    }
+    
+    public int getNummer() {
+        return nummer;
+    }
+    
+    public int getGelbeKarte() {
+        return anzGelb;
+    }
+    
+    public void erhöheAnzahlGelberKarten() {
+        anzGelb = anzGelb+1;
+    }
+    
+    public boolean getImSpiel() {
+        return imSpiel;
+    }
+    
+    public void setImSpiel(boolean pImSpiel) {
+        imSpiel = pImSpiel;
+    }
+    
+    public void begeheFoul() {
+        erhöheAnzahlGelberKarten();
+        System.out.println(name + "hat ein Foul begangen. Anzahl an Gelben Karten: " + anzGelb);
+    }
 }
