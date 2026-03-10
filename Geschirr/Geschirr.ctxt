@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Geschirr
+comment1.params=pDurchmesser\ pH\u00F6he\ pGewicht
+comment1.target=Geschirr(double,\ double,\ double)
+comment2.params=
+comment2.target=double\ getDurchmesser()
+comment3.params=
+comment3.target=double\ getHoehe()
+comment4.params=
+comment4.target=double\ getGewicht()
+comment5.params=
+comment5.target=void\ stapeln()
+numComments=6
