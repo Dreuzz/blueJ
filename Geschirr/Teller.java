@@ -1,16 +1,5 @@
-
-/**
- * Beschreiben Sie hier die Klasse Teller.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
- */
-public class Teller extends Geschirr
-
-{
-
+public class Teller extends Nahrung {
     private String tellerHöhe;
-    private double Nahrungsaufnahme;
 
     public Teller(double pDurchmesser, double pHöhe, double pGewicht, String pTellerHöhe) {
         super(pDurchmesser, pHöhe, pGewicht);
@@ -20,16 +9,11 @@ public class Teller extends Geschirr
         } 
         else{
             tellerHöhe = pTellerHöhe;
-            
         }
     }
 
     public String getTellerHöhe() {
         return tellerHöhe;
-    }
-    
-    public double getNahrungsaufnahme() {
-        return Nahrungsaufnahme;
     }
 }
  

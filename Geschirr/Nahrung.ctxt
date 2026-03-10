@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Nahrung
+comment1.params=pDurchmesser\ pH\u00F6he\ pGewicht
+comment1.target=Nahrung(double,\ double,\ double)
+comment2.params=
+comment2.target=void\ Nahrungaufnehmen()
+numComments=3

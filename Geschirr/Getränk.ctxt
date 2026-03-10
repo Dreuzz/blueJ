@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Getr\u00E4nk
+comment1.params=pDurchmesser\ pH\u00F6he\ pGewicht
+comment1.target=Getr\u00E4nk(double,\ double,\ double)
+comment2.params=
+comment2.target=void\ Getr\u00E4nkaufnehmen()
+numComments=3

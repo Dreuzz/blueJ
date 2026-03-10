@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=UnterTeller
+comment1.params=pDurchmesser\ pH\u00F6he\ pGewicht
+comment1.target=UnterTeller(double,\ double,\ double)
+numComments=2

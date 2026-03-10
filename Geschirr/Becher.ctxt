@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Becher
+comment1.params=pDurchmesser\ pH\u00F6he\ pGewicht
+comment1.target=Becher(double,\ double,\ double)
+numComments=2
